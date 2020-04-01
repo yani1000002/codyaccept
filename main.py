@@ -1,8 +1,6 @@
 # подключаем модуль для работы с VK
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType, VkBotMessageEvent
 import vk_api, sys
-from bs4 import BeautifulSoup as bs
-import requests
 import config, user_acceptance
 import colorama # цветной текст в консоли
 colorama.init()
