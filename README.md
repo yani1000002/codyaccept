@@ -19,5 +19,3 @@ PEER_ID_CHAT = 2000000001 # peer_id чата, куда присылать уве
 ```
 
 
-
-С уважением, https://vk.com/pevasic.json xD
