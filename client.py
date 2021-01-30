@@ -19,7 +19,6 @@ class Api:
             base_url="https://api.vk.com/method/", params={'access_token': token, 'v': v})
 
         self.key, self.server, self.ts = None, None, None
-        self.last_event_hash = None
 
     async def _update_longpoll_server(self, update_ts: Union[bool] = True) -> Optional[dict]:
         async with self.client as client:
