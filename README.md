@@ -24,7 +24,7 @@ git clone https://github.com/bussy1/codyaccept
 cd codyaccept
 ```
 ```
-pip install -r requirements.tx
+pip install -r requirements.txt
 ```
 ```
 python app.py
